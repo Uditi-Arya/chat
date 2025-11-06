@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qubi Chatbot</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Header -->
+    <header class="chat-header">
+      <div class="header-left">
+        <h2>Qubi</h2>
+        <span class="status">Online</span>
+      </div>
+      <div class="header-right">
+        <button class="header-btn update">⟳</button>
+        <button class="header-btn">⚙️</button>
+      </div>
+    </header>
+
+    <!-- Chat body -->
+    <div class="chat-body" id="chat-body">
+      <div class="message bot">
+        <div class="bubble">Hello! 👋 I'm Qubi, your personal AI assistant. How can I help you today?</div>
+      </div>
+    </div>
+
+    <!-- Input -->
+    <div class="chat-input">
+      <input id="user-input" type="text" placeholder="Type your message..." />
+      <button id="send-btn" class="send-btn">➤</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
